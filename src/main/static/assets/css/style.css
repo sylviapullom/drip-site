@@ -1,0 +1,271 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 3px solid red;
+}
+
+
+/* --------------- logo section -------------------------*/
+/*
+.container-fluid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+*/
+.hero {
+    height: 100%;
+    width: 100%;
+    background: url("../img/bike.jpeg");
+}
+
+ .navbar-header .navbar-brand {
+     color: midnightblue;
+     border: 2px solid midnightblue;
+     float: left;
+     width: 155px;
+     height: 50px;
+     margin-top: 10px;
+     margin-bottom: 20px;
+     margin-left: 180px;
+     background-color: #000;
+     padding: 10px;
+     border: 2px solid midnightblue;
+
+ }
+
+ .navbar-head {
+     color: #fff;
+ }
+
+.navbar-header .btn {
+    color: midnightblue;
+    border: 2px solid midnightblue;
+    float: right;
+    width: 155px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 80px;
+    background-color: #000;
+    padding: 10px;
+    border: 2px solid midnightblue;
+}
+
+.navbar-header {
+    background-color: #000;
+   }
+
+
+.navbar-header .info {
+    background-color: midnightblue;
+    text-align: center;
+    border: 2px solid green;
+    width: 1360px;
+    height: 30px;
+}
+
+/* ----------------- Hero section ------------------ */
+.hero {
+    height: 100vh;
+    background-image: url("../img/tiff.jpg");
+    background-size: cover;
+}
+
+
+#hero-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+
+.hero-content {
+    position: relative;
+    min-width: 350px;
+    width: 29%;
+    z-index: 100;
+}
+
+
+.hero h1 {
+    font-size: 4em;
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    line-height: 1.536;
+    color: #fff;
+}
+
+.hero p {
+    font-size: 1.25em;
+    line-height: 1.5;
+    margin: 1.2em 0 0 0;
+    color: #fff;
+}
+
+#bg-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+
+}
+
+@media screen and (min-width: 300px){
+    .hero-content {
+        float: right;
+        margin-top: 130px;
+        top: -15px;
+       left: -20px;
+    }
+
+    .hero{
+        min-height: 700px;
+    }
+}  /* close min-width: 300px */
+
+@media screen and (min-width: 600px){
+    .hero-content {
+        float: right;
+        margin-top: 150px;
+        top: 60px;
+        width: 50%;
+        max-width: 500px;
+    }
+
+    .hero {
+        background: none;
+    }
+
+}  /* close min-width: 600px */
+
+@media screen and (min-width: 800px) {
+    body {
+       background-color: black;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .hero {
+        height: 99vh;
+    }
+}
+
+@media screen and (min-width: 950px) {
+    .hero-content {
+
+    }
+}
+
+/* --------------- footer section -------------------------*/
+
+.footer {
+    margin-bottom: -200px;
+}
+
+.footer .copy {
+    margin-top: 100px;
+}
+
+#footer .navbar-brand {
+    background-color: #000;
+    text-align: right;
+    color: #fff;
+    padding: 2px;
+    padding-right: 25px;
+    right: 5px;
+    width: 1360px;
+    height: 50px;
+    margin-top: 0;
+    margin-bottom: -150px;
+    border: 2px solid deeppink;
+}
+
+.social {
+    float: left;
+    text-align: center;
+}
+
+ .footer.copy {
+    margin-top: 500px;
+    border: 3px solid forestgreen;
+}
+
+.power {
+    margin-top: 120px;
+}
+
+#footer .copy {
+    background-color: #000;
+    text-align: left;
+    color: #fff;
+    padding: 2px;
+    padding-left: 25px;
+    left: 5px;
+    width: 1360px;
+    height: 30px;
+    border: 2px solid darkorchid;
+}
+
+#footer .power {
+    background-color: #000;
+    text-align: right;
+    color: #fff;
+    padding: 2px;
+    padding-right: 25px;
+    right: 5px;
+    width: 1360px;
+    height: 30px;
+    border: 2px solid yellow;
+
+}
+
+.navbar-brand a {
+    color: #fff;
+    font-size: small;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;bottom: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.navbar a:hover {
+    background: #f1f1f1;
+    color: #000;
+}
+
+
+.navbar a.active {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+
+
+
+
